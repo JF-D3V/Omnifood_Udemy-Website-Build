@@ -16,7 +16,13 @@
 
 ---LINE HEIGHTS:
 Default - 1.05
+Medium - 1.2
 Paragraph Default - 1.6
+
+
+---LETTER SPACING:
+0.75px
+
 
 
 --- COLOURS 
@@ -66,13 +72,52 @@ body {
 /* GENERAL REUSABLE COMPONENETS */
 /*****************************/
 
-.heading-primary {
-  font-size: 5.2rem;
+.container {
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  gap: 9.6rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.heading-primary,
+.heading-secondary {
   font-weight: 700;
   letter-spacing: -0.5px;
+  color: #333;
+}
+
+.heading-primary {
+  font-size: 5.2rem;
   line-height: 1.05;
   margin-bottom: 3.2rem;
-  color: #333;
+}
+
+.heading-secondary {
+  font-size: 4.4rem;
+  line-height: 1.2;
+  margin-bottom: 9.6rem;
+}
+
+.subheading {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #cf711f;
+  text-transform: uppercase;
+  margin-bottom: 1.6rem;
+  letter-spacing: 0.75px;
 }
 
 .btn:link,
@@ -248,4 +293,31 @@ body {
 
 .hero-img {
   width: 100%;
+}
+
+/*****************************/
+/* HOW IT WORKS SECTION */
+/*****************************/
+
+.section-how {
+  padding: 9.6rem 0;
+}
+
+.step-text-box {
+}
+.step-number {
+  font-size: 9.8rem;
+  font-weight: 600;
+  color: #bbb;
+}
+.heading-tertiary {
+  font-size: 2.4rem;
+}
+.step-description {
+  font-size: 1.6rem;
+}
+.step-img-box {
+}
+.step-img {
+  max-width: 50%;
 }
