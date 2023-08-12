@@ -32,7 +32,7 @@ Primary | #e67e22
 Tints | #fdf2e9 #fae5d3
 Shades | #cf711f
 Accents | 
-Greys | #555 #333
+Greys | #555 #333 #6f6f6f
 
 
 ---SHADOWS
@@ -191,7 +191,11 @@ body {
   border-bottom: 1px solid transparent;
 }
 
+
+/*****************************/
 /* HELPER CLASS */
+/*****************************/
+
 
 .margin-right-sm {
   margin-right: 1.6rem !important;
