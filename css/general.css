@@ -191,18 +191,16 @@ body {
   border-bottom: 1px solid transparent;
 }
 
-
 /*****************************/
 /* HELPER CLASS */
 /*****************************/
-
 
 .margin-right-sm {
   margin-right: 1.6rem !important;
 }
 
 .margin-btm-md {
-  margin-bottom: 4.8rem; !important
+  margin-bottom: 4.8rem !important;
 }
 
 .text-centre-md {

@@ -318,9 +318,6 @@
   width: 100%;
 }
 
-.diets {
-}
-
 .all-recipes {
   text-align: center;
   font-size: 1.8rem;
@@ -363,6 +360,7 @@
   display: grid;
   grid-template-columns: 55fr 45fr;
   align-items: center;
+}
 
 .testimonials {
   display: grid;
@@ -394,10 +392,6 @@
   gap: 1.6rem;
 }
 
-.gallery-item {
-  overflow: hidden;
-}
-
 .gallery-item img {
   display: block;
   width: 100%;
@@ -405,7 +399,18 @@
   transition: all 400ms;
 }
 
+.gallery-item {
+  overflow: hidden;
+}
+
 .gallery-item img:hover {
   transform: scale(1.1);
 }
 
+/*****************************/
+/* PRICING SECTION */
+/*****************************/
+
+.section-pricing {
+  padding: 9.6rem 0;
+}
