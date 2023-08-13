@@ -423,18 +423,24 @@
 }
 
 .pricing-plan--complete {
+  position: relative;
+  overflow: hidden;
 }
 
 .pricing-plan--complete::after {
   content: "Best Value";
-  /* position: absolute;
-  top: 0;
-  right: 0;
-  font-size: 2rem;
-  background-color: #94d82d;
-  padding: 1.6rem 3.2rem;
+  position: absolute;
+  top: 4%;
+  right: -9%;
+
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #333;
+  background-color: #ffd43b;
+  padding: 0.8rem 3.6rem;
   border-radius: 9px;
-  transform: rotate(30deg); */
+  transform: rotate(40deg);
 }
 
 .section-pricing {
