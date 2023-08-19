@@ -32,7 +32,7 @@ Primary | #e67e22
 Tints | #fdf2e9 #fae5d3 #eb984c
 Shades | #cf711f #45260a
 Accents | 
-Greys | #555 #333 #6f6f6f
+Greys | #555 #333 #6f6f6f 
 
 
 ---SHADOWS
@@ -84,10 +84,10 @@ body {
 .grid {
   display: grid;
   column-gap: 6.4rem;
-  /* margin-bottom: 9.6rem; */
+  margin-bottom: 9.6rem;
 }
 
-.grid:last-child {
+.grid:not(:last-child) {
   margin-bottom: 9.6rem;
 }
 
@@ -101,6 +101,10 @@ body {
 
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--5--cols {
+  grid-template-columns: repeat(5, 1fr);
 }
 
 .grid--center--v {
