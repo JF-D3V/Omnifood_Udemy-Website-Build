@@ -2,7 +2,16 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta
+      name="Omnifood"
+      content="Subscription service providing AI generated meal plans for professionals and people on the go. Tailored to your personal tastes and nutritional needs, we have delivered 250,000+ meals last year!"
+    />
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="/img/favicon.png" />
+    <link rel="apple-touch-icon" href="/img/apple-touch-icon.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -29,7 +38,7 @@
       src="// https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
     ></script>
 
-    <title>Omnifood</title>
+    <title>Omnifood &mdash; Never cook again!</title>
   </head>
 
   <body>
@@ -88,8 +97,13 @@
           </div>
 
           <div class="hero-img-box">
+            <picture>
+              <source srcset="img/hero.webp" type="image/webp" />
+              <source srcset="img/hero_uncompressed.png" type="image/png" />
+            </picture>
+
             <img
-              src="img/hero.png"
+              src="img/hero.webp"
               class="hero-img"
               alt="woman enjoying food, meals in storage container and food bowl is on table"
             />
@@ -574,23 +588,23 @@
     <footer class="footer">
       <div class="container grid grid--footer">
         <div class="logo-col">
-          <a href="#" class="footer-logo">
+          <a href="#omnifood-logo" class="footer-logo">
             <img src="img/omnifood-logo.png" alt="Omnifood Logo" class="logo"
           /></a>
 
           <ul class="social-links">
             <li>
-              <a class="footer-link" href="#"
+              <a class="footer-link" href="#omnifood-instagram"
                 ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
               ></a>
             </li>
             <li>
-              <a class="footer-link" href="#"
+              <a class="footer-link" href="#omnifood-facebook"
                 ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
               ></a>
             </li>
             <li>
-              <a class="footer-link" href="#"
+              <a class="footer-link" href="#omnifood-twitter"
                 ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
               ></a>
             </li>
